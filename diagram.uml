@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="138.33333333333331" y="325.0">ro.mta.se.lab.controller.controller</node>
+    <node x="330.0" y="0.0">ro.mta.se.lab.model.RaportVreme</node>
+    <node x="183.33333333333331" y="893.0">ro.mta.se.lab.Main</node>
+    <node x="0.0" y="55.0">ro.mta.se.lab.model.InformatiiOras</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ro.mta.se.lab.controller.controller" target="ro.mta.se.lab.model.InformatiiOras">
+      <point x="-96.0" y="-259.0" />
+      <point x="162.33333333333331" y="305.0" />
+      <point x="51.666666666666686" y="305.0" />
+      <point x="-103.33333333333333" y="82.5" />
+    </edge>
+    <edge source="ro.mta.se.lab.Main" target="ro.mta.se.lab.controller.controller">
+      <point x="0.0" y="-38.0" />
+      <point x="0.0" y="259.0" />
+    </edge>
+    <edge source="ro.mta.se.lab.controller.controller" target="ro.mta.se.lab.model.RaportVreme">
+      <point x="48.0" y="-259.0" />
+      <point x="306.3333333333333" y="295.0" />
+      <point x="467.0" y="295.0" />
+      <point x="-137.0" y="137.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="268.2222222222224" y="469.888888888889" />
+  <SelectedNodes>
+    <node>ro.mta.se.lab.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

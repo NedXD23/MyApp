@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+
+      <Label layoutX="55.0" layoutY="212.0" text="Oras:">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="224.0" layoutY="32.0" text="MyWeather ">
+         <font>
+            <Font name="Arial Bold" size="27.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="choice_country" layoutX="117.0" layoutY="116.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="choice_city" layoutX="117.0" layoutY="209.0" prefWidth="150.0" />
+      <Label layoutX="55.0" layoutY="120.0" text="Tara:">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="oras_selectat" layoutX="345.0" layoutY="164.0" prefHeight="32.0" prefWidth="169.0">
+      <font>
+         <Font name="Arial Bold" size="25.0" />
+      </font></Label>
+   <Label fx:id="vreme" layoutX="345.0" layoutY="215.0" prefHeight="26.0" prefWidth="123.0">
+      <font>
+         <Font name="Arial Bold" size="15.0" />
+      </font></Label>
+   <Label fx:id="temperatura" layoutX="345.0" layoutY="267.0" prefHeight="39.0" prefWidth="87.0">
+      <font>
+         <Font name="Arial Bold Italic" size="20.0" />
+      </font></Label>
+   <Label fx:id="descriere" layoutX="345.0" layoutY="241.0" prefHeight="26.0" prefWidth="87.0" />
+    <Label fx:id="imagine" layoutX="336.0" layoutY="64.0" prefHeight="100.0" prefWidth="115.0" />
+   <Label fx:id="data" layoutX="345.0" layoutY="197.0" prefHeight="18.0" prefWidth="181.0" />
+   <Label fx:id="umiditate" layoutX="345.0" layoutY="306.0" />
+   <Label fx:id="vant" layoutX="456.0" layoutY="306.0" />
+   </AnchorPane>
